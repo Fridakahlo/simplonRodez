@@ -100,13 +100,13 @@
   <!-- The slideshow -->
   <div class="carousel-inner" style="min-height: 450px">
     <div class="carousel-item active">
-      <img src="img/html5.png" alt="html5">
+      <img src="img/html5.png" alt="responsive image">
     </div>
     <div class="carousel-item">
-      <img src="img/js.png" alt="js">
+      <img src="img/js.png" alt="responsive image">
     </div>
     <div class="carousel-item">
-      <img src="img/css.png" alt="css">
+      <img src="img/css.png" alt="responsive image">
     </div>
   </div>
 

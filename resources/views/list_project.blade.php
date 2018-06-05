@@ -14,23 +14,14 @@
 }
 .img {
 	width:60%;
-  	margin:auto;
-  /*  vertical-align: middle;
-    text-align: center;
-  display: table-cell;*/
-  	
+  	margin:auto;  	
 }
-/*.link_project {
-	margin-top: -4em;
-}*/
 .list {
 	margin-bottom: 3em;
 	font-weight: bold;
 }
 .text {
-  /*width: 100px;*/
   margin: auto;
- /* padding: 10px; */
   word-wrap: break-word;   
 }
 .link_project {
