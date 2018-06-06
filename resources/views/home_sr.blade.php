@@ -4,12 +4,12 @@
 @extends('layouts.default')
 
 
+
 <style>
 /*=======================================*/
 /*       css view home_sr.blade.php      */
 /*=======================================*/
-
-.container-home_sr {
+.home_sr {
   margin: 1em;
 }
 .we-sr {
@@ -46,36 +46,34 @@
 }
 </style>
 
-
 @section('content')
 <section class="we-sr" style="min-height: 450px">
-    <div class="container-home_sr we">
+    <div class="container home_sr we">
         <div class="row justify-content-center">
-            <div class="col-sm-12 col-xs-12 col-md-6 text-center">
+            <div class="col-md-5 text-center">
                 <h1>SIMPLON-RODEZ</h1>
                     <h2>Mais qui sommes-nous?</h2>
                         <p class="we">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
             </div> 
-            <div class="col-sm-12 col-xs-12 col-md-6 text-center">
+            <div class="col-md-5 text-center">
                 <img class="img-thumbnail" src="img/footer_logo_ecole_regionale_numerique.jpg"  alt="responsive image">
             </div>
         </div>
     </div>    
 </section>
-
 <section class="news-sr" >
-    <div class="container-home_sr">
+    <div class="container home_sr">
         <div class="row justify-content-center">
-            <div class="col-sm-12 col-xs-12 col-md-6 text-center">
+            <div class="col-md-5">
                 <div class="card text-center news" style="min-height: 350px">
-                    <p class="presentation">Et prima post Osdroenam quam, ut rectum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
-                    <h1 class="h1_news">OUVERTE !!!</h1>
+                    <p class="presentation">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
+                    <h1>OUVERTE !!!</h1>
                     <div><button type="button" class="btn btn-secondary link-news">Postuler</button></div>
                 </div>  
             </div>
-            <div class="col-sm-12 col-xs-12 col-md-6 text-center">
+            <div class="col-md-5">
                 <div class="card text-center news" style="min-height: 350px">
-                    <h3 class="h3_news">Evènement à venir</h3>
+                    <h3>Evènement à venir</h3>
                     <p class="presentation">Du 12 au 14 septembre, la Promo 1 de Simplon-Rodez à le plaisir de vous proposer: l'ACATHON de l'Aveyron!!</p>
                     <p>Premier évènement du genre dans notre beau département...</p>
                     <div class="link-news">
@@ -84,9 +82,10 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
 
+    </div>
+  </div>
+</section>
 <section class="carousel sr">
   <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -107,21 +106,16 @@
     </div>
     <div class="carousel-item">
       <img src="img/css.png" alt="responsive image">
-    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
   </div>
-
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-</div>
-
 </section>
-  
 @endsection
 
 

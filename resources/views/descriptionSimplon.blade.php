@@ -1,45 +1,63 @@
 @extends('layouts.default')
 
 @section('content')
+	
 
 <div class="block">
 	<div class="col-md-12">
 		<h2>DÉVELOPPEUR.SE WEB</h2>
-	</div>
-	<div class="col-md-12 d-flex ">	
+	</div>	
+	<div class="col-md-12 d-flex ">		
 		<div class="col-sm-1"></div>
 		<div class="col-sm-4">
 			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 			    <div class="carousel-inner">
+				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Git</h3>
+				    	<i class="d-block fab fa-git fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Git Hub</h3>
+				    	<i class="d-block fab fa-github fa-10x"></i>
+				    </div>
 				    <div class="carousel-item active">
-				      <i class="d-block fab fa-html5 fa-10x"></i>
+				        <h3 class="titleIcon d-block">Html 5</h3>
+				        <i class="d-block fab fa-html5 fa-10x"></i>
 				    </div>
 				    <div class="carousel-item">
-				      <i class="d-block fab fa-css3 fa-10x"></i>
+				        <h3 class="titleIcon d-block">Css 3</h3>
+				        <i class="d-block fab fa-css3 fa-10x"></i>
 				    </div>
 				    <div class="carousel-item">
-				      <i class="d-block fab fa-js fa-10x"></i>
+				        <h3 class="titleIcon d-block">Javascript</h3>
+				        <i class="d-block fab fa-js fa-10x"></i>
 				    </div>
 				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Angular.js</h3>
 				    	<i class="d-block fab fa-angular fa-10x"></i>
-				    </div>
+					</div>
 				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">React.js</h3>
 				    	<i class="d-block fab fa-react fa-10x"></i>
-				    </div>
+					</div>
 				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Vue.js</h3>
 				    	<i class="d-block fab fa-vuejs fa-10x"></i>
-				    </div>
+					</div>
 				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Php</h3>
 				    	<i class="d-block fab fa-php fa-10x"></i>
-				    </div>
+					</div>
 				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Wordpress</h3>
 				    	<i class="d-block fab fa-wordpress fa-10x"></i>
-				    </div>
+					</div>
 				    <div class="carousel-item">
+				    	<h3 class="titleIcon d-block">Laravel</h3>
 				    	<i class="d-block fab fa-laravel fa-10x"></i>
-				    </div>
+					</div>
 			  	</div>
-			</div>
+			</div>	
 		</div>
 		<div class="col-sm-6">
 			<h3>Qu'apprendre à Simplon Rodez ?</h3>
@@ -51,7 +69,7 @@
 		<div class="col-sm-1"></div>
 	</div>					
 </div>
-
+{{-- Block 2 --}}
 <div class="block">
 	<div class="col-md-12">
 		<h2>LE DIPLÔME, LA DURÉE</h2>
@@ -72,7 +90,7 @@
 		<div class="col-sm-1"></div>
 	</div>	
 </div>
-
+{{-- Block 3 --}}
 <div class="block">
 	<div class="col-md-12">	
 		<h2>TÉMOIGNAGES</h2>
@@ -93,4 +111,4 @@
 		<div class="col-sm-1"></div>
 	</div>			
 </div>		
-@endsection
+@stop
