@@ -19,9 +19,9 @@
 .news-sr, .carousel {
   margin-top: 3em;
 }
-.we {
+/*.we {
   margin: 2em;
-}
+}*/
 .btn-secondary {
   text-decoration: none;
 }
@@ -47,9 +47,9 @@
 </style>
 
 @section('content')
-<section class="we-sr" style="min-height: 450px">
+<section class="we-sr home" style="min-height: 450px">
     <div class="container home_sr we">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-md-5 text-center">
                 <h1>SIMPLON-RODEZ</h1>
                     <h2>Mais qui sommes-nous?</h2>
@@ -61,7 +61,7 @@
         </div>
     </div>    
 </section>
-<section class="news-sr" >
+<section class="news-sr home" >
     <div class="container home_sr">
         <div class="row justify-content-center">
             <div class="col-md-5">
