@@ -43,13 +43,15 @@
 </style>
 
 @section('content')
+
 <section class="we-sr" style="min-height: 450px">
     <div class="container-home_sr we">
         <div class="row justify-content-center">
             <div class="col-md-5 text-center">
-                <h1>SIMPLON-RODEZ</h1>
-                    <h2>Mais qui sommes-nous?</h2>
-                        <p class="we">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
+
+                {!! $infos->title !!}
+                {!! $infos->content !!}
+        
             </div> 
             <div class="col-md-5 text-center">
                 <img class="img-thumbnail" src="img/footer_logo_ecole_regionale_numerique.jpg"  alt="responsive image">
@@ -60,25 +62,15 @@
 <section class="news-sr" >
     <div class="container-home_sr">
         <div class="row justify-content-center">
-            <div class="col-md-5">
-                <div class="card text-center news" style="min-height: 350px">
-                    <p class="presentation">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
-                    <h1>OUVERTE !!!</h1>
-                    <div><button type="button" class="btn btn-secondary link-news">Postuler</button></div>
-                </div>  
-            </div>
-            <div class="col-md-5">
-                <div class="card text-center news" style="min-height: 350px">
-                    <h3>Evènement à venir</h3>
-                    <p class="presentation">Du 12 au 14 septembre, la Promo 1 de Simplon-Rodez à le plaisir de vous proposer: l'ACATHON de l'Aveyron!!</p>
-                    <p>Premier évènement du genre dans notre beau département...</p>
-                    <div class="link-news">
-                        <a href="#">En savoir plus</a>
-                    </div>    
+            @foreach($news as $articledown)
+                <div class="col-md-5">
+                    <div class="cardach($articleOne as $articledown) text-center news" style="min-height: 350px">
+                        {!! $articledown->title !!}
+                        {!! $articledown->content !!}
+                    </div>  
                 </div>
-            </div>
-        </div>
-
+            @endforeach
+       </div>
     </div>
   </div>
 </section>
@@ -115,5 +107,4 @@
   </div>
 </section>
 @endsection
-
 

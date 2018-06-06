@@ -5,17 +5,23 @@
     @include('includes.head')
 </head>
 <body>
-    <header class="row">
-        @include('includes.header')
+    <header class="container">
+        <div class="row"><
+            @include('includes.header')
+        </div>    
     </header>
-    @yield('content')
-    <footer class="row">
-        @include('includes.footer')
+    <main>
+        <div class="container">
+            @yield('content')
+        </div>
+    </main>
+    <footer class="container">
+        <div class="row">
+            @include('includes.footer')
+        </div>
     </footer>
     <script src="{{ asset('js/app.js') }}" defer></script>
-    {{-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> --}} 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
-    {{-- <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> --}} 
     <!-- Utilitary Bootsrap 4 -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
