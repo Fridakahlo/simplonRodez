@@ -1,8 +1,49 @@
+{{-- Start Page Description made by:DAVID --}}
+<style type="text/css">
+	/*Start Section Style Description Page: made by David*/
+.block {
+  	padding-top: 3rem;
+  	padding-bottom: 3rem;
+}
+.block h3, .block p {
+  	padding-top: 1.5rem;
+}
+.block i {
+  	margin-top: 4rem;
+  	margin-left: 10rem;
+  	width: 17.5rem;
+  	height: 17.5rem;
+}  
+    /*Style section 1 and 3 of Description page*/
+.block h2:nth-child(even) { 
+  	margin-left: 12.5rem;
+  	padding-right: 1rem;
+  	padding-bottom: 1rem;
+}
+.block img:nth-child(even){
+  	margin-left: 5rem;
+  	width: 17.5rem;
+  	height: 17.5rem;
+}
+.block:nth-child(even) {
+  	background-color: #efefef;
+}
+    /*End style section 1 and 3 of Description page*/
+.block:nth-child(even) {
+  	background-color: #fff;
+}
+.carousel img{
+	width:17.5rem;
+  	height: 17.5rem; 
+}
+.titleIcon{
+	margin-left: 4rem;
+	text-align: center;
+}
+/*End Section Style Description Page*/
+</style>
 @extends('layouts.default')
-
 @section('content')
-	
-
 <div class="block">
 	<div class="col-md-12">
 		<h2>DÉVELOPPEUR.SE WEB</h2>
@@ -69,7 +110,7 @@
 		<div class="col-sm-1"></div>
 	</div>					
 </div>
-{{-- Block 2 --}}
+
 <div class="block">
 	<div class="col-md-12">
 		<h2>LE DIPLÔME, LA DURÉE</h2>
@@ -90,7 +131,7 @@
 		<div class="col-sm-1"></div>
 	</div>	
 </div>
-{{-- Block 3 --}}
+
 <div class="block">
 	<div class="col-md-12">	
 		<h2>TÉMOIGNAGES</h2>
@@ -111,4 +152,4 @@
 		<div class="col-sm-1"></div>
 	</div>			
 </div>		
-@stop
+@endsection
