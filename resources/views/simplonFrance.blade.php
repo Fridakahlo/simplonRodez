@@ -1,6 +1,12 @@
 @extends('layouts.default')
 
 <style>
+	.block:nth-child(odd){
+		background-color: #ffffff;
+	}
+	.block:nth-child(even) {
+  		background-color: #efefef;
+	}
 	.block img{
 		margin-left: 5rem;
 		width: 17.5rem;
@@ -10,13 +16,24 @@
 		margin-left: 5rem;
 	}
 	.psr{
-		margin-left: 5rem;
+		margin-left: 6rem;
 	}
 	.p-2{
 		margin-top: 2rem;
-		margin-left: 1.5rem;
 		margin-bottom: 2rem;
+		margin-left: 5rem;	
 	}
+	#line{
+		height: 12rem;
+		width: 12rem;
+	}
+	#first{
+		margin-right: 12rem;
+	}
+	#second{
+		margin-right: 12rem;
+	}
+	
 </style>
 
 @section('content')
@@ -92,26 +109,30 @@
 			</p>	
 		<div class="col-sm-1"></div>
 	</div>
-	<div class="d-flex flex-row">
+
+
+	<div class="d-flex justify-content-sm-center" id="first">
 		<div class="p-2">
-			<img src="img/css.png" alt="CCI Aveyron">
+			<img src="img/css.png" id="line" alt="CCI Aveyron">
 		</div>
 		<div class="p-2">
-			<img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="Fabrique d'initiatives citoyennes">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" id="line" alt="Fabrique d'initiatives citoyennes">
 		</div>
 		<div class="p-2">
-			<img src="img/css.png" alt="illam Informatique">
+			<img src="img/css.png" id="line" alt="illam Informatique">
 		</div>
 	</div>
-	<div class="d-flex flex-row">
+
+
+	<div class="d-flex justify-content-sm-center" id="second">
 		<div class="p-2">
-			<img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="CCI Aveyron">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" id="line" alt="CCI Aveyron">
 		</div>
 		<div class="p-2">
-			<img src="img/css.png" alt="Fabrique d'initiatives citoyennes">
+			<img src="img/css.png" id="line" alt="Fabrique d'initiatives citoyennes">
 		</div>
 		<div class="p-2">
-			<img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="illam Informatique">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" id="line" alt="illam Informatique">
 		</div>
 	</div>
 </div>
