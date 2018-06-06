@@ -1,9 +1,18 @@
+<!--=======================================*/
+/*       view list_project.blade.php       */
+/*=========================================*/-->
 @extends('layouts.default')
 
+
+<!--=======================================*/
+/*     css view list_project.blade.php     */
+/*=========================================*/-->
 <style type="text/css">
 .title {
 	margin: 0;
 	padding: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 .title_projects {
 	margin-bottom: 2em;
@@ -13,8 +22,9 @@
 	padding: 0;
 }
 .img {
-	width: 60%;
-  margin: auto;
+
+	width:60%;
+  	margin:auto;  	
 }
 .list {
 	margin-bottom: 3em;
@@ -27,6 +37,13 @@
 .link_project {
   margin-left: 21em;
 }
+.img {
+  padding-top: 2.5em;
+}
+.project1, .project3 {
+  background-color: #EFEFEF;
+}
+
 </style>
 
 @section('content')
@@ -34,22 +51,22 @@
   <h1 class="text-center title_projects">Projets</h1>
 </section>
 <section class="project1 justify-content-center">
-  <div class="container" >
-  	<div class="row justify-content-center" style="min-height: 300px">
-      <div class="col-md-5 text-center">
-        <img class="img project1" src="img/html5.png" alt="image">        
-      </div> 
-      <div class="col-md-5">
-      	<h2 class="text-center title">Blabla</h2>
-        <ul class="list">
-          <li>Apprenant: </li><p class="text">Quentin Chamallow</p>
-          <li>Promo: </li><p class="text">2020-2021</a>
-          <li>Catégorie: </li><p class="text">Sed elementum laoreet fringilla. Fusce mollis lectus et ex auctor, vel luctus ipsum pretium.</p>
-        </ul> 
-        <a href="#" class="link_project">Voir le projet</a>  
-      </div>
-    </div>
-  </div>    
+    <div class="container" >
+        	<div class="row justify-content-center" style="min-height: 300px">
+              <div class="col-md-5 text-center">
+                  <img class="img align-middle" src="img/html5.png" alt="image">        
+              </div> 
+              <div class="col-md-5">
+              	<h2 class="text-center title">Blabla</h2>
+                  <ul class="list">
+                    <li>Apprenant: </li><p class="text">Quentin Chamallow</p>
+                    <li>Promo: </li><p class="text">2020-2021</a>
+                    <li>Catégorie: </li><p class="text">Sed elementum laoreet fringilla. Fusce mollis lectus et ex auctor, vel luctus ipsum pretium.</p>
+                  </ul> 
+                  <a href="#" class="link_project">Voir le projet</a>  
+              </div>
+        </div>
+    </div>    
 </section>
 <section class="project2 justify-content-center">
     <div class="container">

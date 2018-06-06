@@ -63,9 +63,8 @@ Route::get('/simplonFrance', function() {
 });
 
 Route::get('/home_sr', function(){
-	return view('home_sr');
+    return view('home_sr');
 });
 
 Route::get('/home_sr', 'ArticleController@articlesPageOne');
-
 
