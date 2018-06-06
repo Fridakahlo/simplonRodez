@@ -1,11 +1,13 @@
+<!--=======================================*/
+/*         view home_sr.blade.php          */
+/*=========================================*/-->
 @extends('layouts.default')
 
 
-
 <style>
-/*=========================*/
-/*  view home_sr.blade.php */
-/*=========================*/
+/*=======================================*/
+/*       css view home_sr.blade.php      */
+/*=======================================*/
 
 .container-home_sr {
   margin: 1em;
@@ -19,7 +21,6 @@
 }
 .we {
   margin: 2em;
- 
 }
 .btn-secondary {
   text-decoration: none;
@@ -43,7 +44,6 @@
   border-radius: 5px;
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
 }
-
 </style>
 
 

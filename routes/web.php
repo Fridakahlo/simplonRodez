@@ -68,3 +68,6 @@ Route::get('/simplonFrance', function() {
     return view('simplonFrance');
 });
 
+Route::get('/descriptiveProject', function() {
+    return view('descriptiveProject');
+});

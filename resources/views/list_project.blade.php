@@ -1,9 +1,18 @@
+<!--=======================================*/
+/*       view list_project.blade.php       */
+/*=========================================*/-->
 @extends('layouts.default')
 
+
+<!--=======================================*/
+/*     css view list_project.blade.php     */
+/*=========================================*/-->
 <style type="text/css">
 .title {
 	margin: 0;
 	padding: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 .title_projects {
 	margin-bottom: 2em;
@@ -27,7 +36,12 @@
 .link_project {
   margin-left: 21em;
 }
-
+.img {
+  padding-top: 2.5em;
+}
+.project1, .project3 {
+  background-color: #EFEFEF;
+}
 
 </style>
 
@@ -39,7 +53,7 @@
     <div class="container" >
         	<div class="row justify-content-center" style="min-height: 300px">
               <div class="col-md-5 text-center">
-                  <img class="img project1" src="img/html5.png" alt="image">        
+                  <img class="img align-middle" src="img/html5.png" alt="image">        
               </div> 
               <div class="col-md-5">
               	<h2 class="text-center title">Blabla</h2>
