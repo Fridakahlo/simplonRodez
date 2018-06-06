@@ -18,10 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home_sr', function(){
-	return view('home_sr');
-});
-
 Route::get('about', function () {
     return view('about');
 })->middleware('backoffice::class');
@@ -53,8 +49,8 @@ Route::get('/descriptionSimplon', function() {
     return view('descriptionSimplon');
 });
 Route::get('/contact', [
-	'as' => 'contact_path',
-	'uses' => 'ContactsController@create'
+    'as' => 'contact_path',
+    'uses' => 'ContactsController@create'
 ]);
 
 Route::post('/contact', [
@@ -65,4 +61,11 @@ Route::post('/contact', [
 Route::get('/simplonFrance', function() {
     return view('simplonFrance');
 });
+
+Route::get('/home_sr', function(){
+	return view('home_sr');
+});
+
+Route::get('/home_sr', 'ArticleController@articlesPageOne');
+
 
