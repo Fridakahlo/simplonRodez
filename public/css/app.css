@@ -10460,13 +10460,11 @@ a.text-dark:focus {
 }
 /*End Section Style Description Page*/
 
-=======
->>>>>>> f8c881903c4fdfc88d02b880e11052ccbd66b50c
 .titleIcon{
   margin-left: 4rem;
   text-align: center;
 }
-<<<<<<< HEAD
+
 
 /*=========================================*/
 /*   view descriptiveProject.blade.ph      */
@@ -10488,13 +10486,10 @@ a.text-dark:focus {
   margin-bottom: 3em;
 }
 .background {
-=======
-.card {
->>>>>>> f8c881903c4fdfc88d02b880e11052ccbd66b50c
   background-color: #EFEFEF;
   background-size: cover;
 }
-<<<<<<< HEAD
+
 .descriptive_project {
   margin-top: 1em;
 }
@@ -10569,5 +10564,4 @@ a.text-dark:focus {
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
   min-height:50px; 
 }
-=======
->>>>>>> f8c881903c4fdfc88d02b880e11052ccbd66b50c
+
