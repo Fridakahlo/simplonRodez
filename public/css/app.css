@@ -10530,10 +10530,15 @@ a.text-dark:focus {
 .simplonheader {
   background-image: url(/img/header_rodez_panorama_flou.jpg);
   background-size: cover;
+  min-height: 100vh;
 }
 
-.simplonheader img {
-  
+.simplonlogo {
+  width: 40vw;
+}
+
+.partnerlogos {
+  width: 25vw;
 }
 
 /*      STICKY HEADER POSITION    */
