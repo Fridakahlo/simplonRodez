@@ -7,7 +7,7 @@
 	<div class="container-fluid">
 		<div class="row">
 		<!-- Block 1 -->
-			<div class="block block1">
+			<div class="blockD block1">
 				<div class="col-md-12">
 					<div class="col-md-6">
 						<h1>DÉVELOPPEUR.SE WEB</h1>
@@ -110,7 +110,7 @@
 <div class="wrapper">
 	<div class="container-fluid">
 		<div class="row">		
-			<div class="block block2">
+			<div class="blockD block2">
 				<div class="col-md-12">
 					<div class="d-flex">
 						<div class="col-md-6">&nbsp;</div>
@@ -141,7 +141,7 @@
 <div class="wrapper">
 	<div class="container-fluid">
 		<div class="row">	
-			<div class="block block3">
+			<div class="blockD block3">
 				<div class="col-md-12">	
 					<div class="col-md-6">
 						<h1>TÉMOIGNAGES</h1>
