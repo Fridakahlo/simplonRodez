@@ -1,97 +1,7 @@
-<style>
-/***************************************/
-/*   C.S.S Description Page by David   */
-/***************************************/
-	/**************************************/
-	/*   Style general of section Block   */
-	/**************************************/
-.block {
- 	height: 30rem;
- 	background-color: #efefef;
-}
-.block h2 {
- 	padding-bottom: 5%;
-}
-.block h4 {
- 	text-align: center;
- 	padding-bottom: 20%;
-	color: #000;
-}	
-.block i {
- 	text-align: center;
-	color: #ce0033;
-}
-.block p {
-	text-align: justify;
-	padding-top: 1%; 
-}
-	/******************************************/
-	/*   End style general of section Block   */
-	/******************************************/
-	/***************************/
-	/*   Style Block 1 and 3   */
-	/***************************/
-.block1 h1, .block3 h1 {
- 	padding-top: 10%;
- 	padding-bottom: 3.5%;
- 	text-align: center;
- 	color: #ce0033;
-}
-.block1 p, .block3 p {
-	padding-right: 10%;
-}
-.block3 img {
-	margin-left: 23.5%;
-	border-radius: 5%;
-	border: solid 3px #000;
-}
-	/*******************************/
-	/*   End style Block 1 and 3   */
-	/*******************************/
-	/*********************/
-	/*   Style Block 2   */
-	/*********************/
-.block2 {
-	background-color: #fff;
-	text-align: right;
-}
-.block2 h1 {
-	padding-top: 10%;
- 	padding-bottom: 3.5%;
- 	text-align: center;
- 	color: #ce0033;	
-}
-.block2 p {
-	margin-left: 10%;
-}
-.block2 img {
-	margin-right: 23.5%;
-	border-radius: 5%;
-	border: solid 3px #ec0033;
-}
-	/*************************/
-	/*   End style Block 2   */
-	/*************************/
-#carouselDescription {
-	color: #000;
-}
-.description {
-	height: 50rem;
-}
-.carouselIcon {
-	font-size: 5rem;
-}
-.imgDescription {
-	width: 20rem;
-	height: 15rem;
-	margin-top: 2%;
-}
-/*******************************************/	
-/*   End C.S.S Description Page by David   */
-/*******************************************/	
-</style>
-
-@extends('layouts.default')
+<!----------------------------------------------->
+<!--   C.S.S Style in file App.css line 10420  -->
+<!----------------------------------------------->
+@extends('layouts.default') 
 @section('content')
 <div class="wrapper">
 	<div class="container-fluid">
@@ -104,82 +14,81 @@
 					</div>
 					<div class="d-flex">
 						<div class="col-md-6">					
-							<div id="carouselDescription">	
-							  	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-								  	<div class="carousel-inner">
-									    <div class="carousel-item active">
-									    	<i class="d-block fab fa-git fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>Git</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-github fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>Git-Hub</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-html5 fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>H.T.M.L 5</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-css3 fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>C.S.S 3</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-js fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>Javascript</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-angular fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>Angular.js</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-react fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>React.js</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-vuejs fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>Vue.js</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-php fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>P.H.P</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-wordpress fa-10x"></i>
-									        <div class="carousel-caption d-none d-md-block">
-												<h4>Wordpress</h4>
-											</div>
-									    </div>
-									    <div class="carousel-item">
-									    	<i class="d-block fab fa-laravel fa-10x"></i>
-									        <div class="carousel-caption  d-md-block">
-												<h4>Laravel</h4>
-											</div>
-									    </div>
+							<div id="carouselDescription" class="carousel slide" data-ride="carousel">	
+							  	<div class="carousel-inner">
+								    <div class="carousel-item active">
+								    	<i class="d-block fab fa-git fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Git</h4>
+										</div>
 								    </div>
-									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-									    <p class="carouselIcon text-danger"> < </p>
-									</a>
-									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">	   <p class="carouselIcon text-danger"> > </p>   
-									</a>
-								</div>  
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-github fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Git-Hub</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-html5 fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>H.T.M.L 5</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-css3 fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>C.S.S 3</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-js fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Javascript</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-angular fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Angular.js</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-react fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>React.js</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-vuejs fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Vue.js</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-php fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>P.H.P</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-wordpress fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Wordpress</h4>
+										</div>
+								    </div>
+								    <div class="carousel-item">
+								    	<i class="d-block fab fa-laravel fa-10x"></i>
+								        <div class="carousel-caption d-none d-md-block">
+											<h4>Laravel</h4>
+										</div>
+								    </div>
+							    </div>
+								<a class="carousel-control-prev" href="#carouselDescription" role="button" data-slide="prev">
+								    <p class="carouselIcon text-danger"> < </p>
+								</a>
+								<a class="carousel-control-next" href="#carouselDescription" role="button" data-slide="next">	   
+									<p class="carouselIcon text-danger"> > </p>   
+								</a>
 							</div>	
 						</div>
 						<div class="description col-md-6">
