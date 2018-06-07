@@ -48,15 +48,10 @@ Route::get('/list_project', function () {
 Route::get('/descriptionSimplon', function() {
     return view('descriptionSimplon');
 });
-Route::get('/contact', [
-    'as' => 'contact_path',
-    'uses' => 'ContactsController@create'
-]);
 
-Route::post('/contact', [
-    'as' => 'contact_path',
-    'uses' => 'ContactsController@store'
-]);
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Route::get('/simplonFrance', function() {
     return view('simplonFrance');
@@ -67,4 +62,8 @@ Route::get('/home_sr', function(){
 });
 
 Route::get('/home_sr', 'ArticleController@articlesPageOne');
+
+Route::get('/descriptiveProject', function(){
+    return view('descriptiveProject');
+});
 
