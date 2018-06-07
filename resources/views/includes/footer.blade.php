@@ -122,7 +122,7 @@
     }
 
 </style>
-<div class="wrapper">
+<footer class="wrapper">
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-sm-6">
@@ -155,5 +155,4 @@
             </div>
         </div>
     </div>
-</div>        
-     
+</footer>
