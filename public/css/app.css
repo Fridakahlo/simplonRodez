@@ -10417,6 +10417,10 @@ a.text-dark:focus {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+
+
+
 /*===================================================*/
 /*Start Section Style Description Page: made by David*/
 /*===================================================*/
@@ -10523,6 +10527,7 @@ a.text-dark:focus {
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
   min-height:50px; 
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .block {
@@ -10598,20 +10603,31 @@ a.text-dark:focus {
     margin-bottom: 2rem;
 }
 
+
 /*=========================================*/
-/*     css view header.blade.php     */
+/*            view nav.blade.ph            */
 /*=========================================*/
 .simplonheader {
-  background-image: url(/img/header_rodez_panorama_flou.jpg);
-  background-size: cover;
+    background-image: url(/img/header_rodez_panorama_flou.jpg);
+    background-size: cover;
 }
-
 .simplonheader img {
-  
+    margin-top: 2rem;
+    z-index: 1000;
 }
-
-/*      STICKY HEADER POSITION    */
-
+.btn_logo {
+    background-color: #FFFFFF;
+    padding: 3px;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.img_logo {
+    height: 54px;
+    width: 54px;
+}
 .sticky.is-sticky {
     position: fixed;
     left: 0;
@@ -10620,5 +10636,24 @@ a.text-dark:focus {
     z-index: 1000;
     width: 100%;
 }
+.navbarPrincipal {
+    background-color: #ce0033;
+    height: 50px;
+    min-height: 70px;
+    font-weight: bold;
+    z-index: 1000;
+    width: 100%;
+    color: #FFFFFF;
+}
+.menu {
+    color: #ffffff;
+}
+#navbarNav {
+    text-decoration: none;
+}
+a.menu:hover{
+    color: #ffffff!important;
+}
+
 
 

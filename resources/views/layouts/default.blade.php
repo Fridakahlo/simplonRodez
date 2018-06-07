@@ -14,7 +14,11 @@
     @section('header')
         @include('includes.header')
     @show
+
     
+
+
+    @include('includes.nav')
 
     <main>
         @yield('content')
