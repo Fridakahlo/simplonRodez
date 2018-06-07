@@ -38,6 +38,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
 *,
 *::before,
 *::after {
@@ -10374,9 +10375,7 @@ a.text-dark:focus {
     min-width: 992px !important;
   }
 
-  .navbar {
-    display: none;
-  }
+
 
   .badge {
     border: 1px solid #000;
@@ -10420,53 +10419,22 @@ a.text-dark:focus {
 }
 
 
+
+
+/*===================================================*/
 /*Start Section Style Description Page: made by David*/
-.block {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.block h3, .block p {
-    padding-top: 1.5rem;
-}
-.block i {
-  margin-top: 4rem;
-  margin-left: 10rem;
-  width: 17.5rem;
-  height: 17.5rem;
-}  
-    /*Style section 1 and 3 of Description page*/
-.block h2:nth-child(odd) { 
-  margin-left: 12.5rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-}
-.block img:nth-child(odd){
-  margin-left: 5rem;
-  width: 17.5rem;
-  height: 17.5rem;
-}
-/*.block:nth-child(odd) {
-  background-color: #ce0033;
-  color: #fff;
-}*/
-    /*End style section 1 and 3 of Description page*/
-.block:nth-child(even) {
-  background-color: #EFEFEF;
-}
-.carousel img{
-  width:17.5rem;
-  height: 17.5rem; 
-}
-/*End Section Style Description Page*/
-
-.titleIcon{
-  margin-left: 4rem;
-  text-align: center;
-}
-
-
+/*===================================================*/
+    /*===============================================*/ 
+    /*   Style section 1 and 3 of Description page   */
+    /*===============================================*/ 
+    /*===================================================*/   
+    /*   End style section 1 and 3 of Description page   */
+    /*===================================================*/  
 /*=========================================*/
-/*   view descriptiveProject.blade.ph      */
+/*   End Section Style Description Page    */
+/*=========================================*/
+/*=========================================*/
+/*   View descriptiveProject.blade.ph      */
 /*=========================================*/
 .img-project {
   width: 17.5rem;
@@ -10566,8 +10534,6 @@ a.text-dark:focus {
     background-image: url(/img/header_rodez_panorama_flou.jpg);
     background-size: cover;
 }
-.logo_simplon, .logos {
-}
 .simplonheader img {
     margin-top: 2rem;
     z-index: 1000;
@@ -10585,7 +10551,7 @@ a.text-dark:focus {
     height: 54px;
     width: 54px;
 }
-    .sticky.is-sticky {
+.sticky.is-sticky {
     position: fixed;
     left: 0;
     right: 0;
@@ -10611,3 +10577,5 @@ a.text-dark:focus {
 a.menu:hover{
     color: #ffffff!important;
 }
+
+
