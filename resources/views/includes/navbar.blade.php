@@ -10,7 +10,8 @@ nav {
 li {
   list-style-type: none;
 }
-/*End style nav bar*/ </style>
+/*End style nav bar*/
+</style>
 <nav class="navbar navbar-default navbar-sticky-top">       
     <div class="container">
         <div class="row">

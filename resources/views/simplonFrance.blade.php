@@ -1,23 +1,85 @@
 @extends('layouts.default')
+
+
 <style>
-    .block img{
-        margin-left: 5rem;
-        width: 17.5rem;
-        height: 17.5rem;
-    }
-    .prgp{
-        margin-left: 5rem;
-    }
-    .psr{
-        margin-left: 5rem;
-    }
-    .p-2{
-        margin-top: 2rem;
-        margin-left: 1.5rem;
-        margin-bottom: 2rem;
-    }
+
+.block {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.block i {
+	margin-top: 4rem;
+	margin-left: 10rem;
+	width: 17.5rem;
+	height: 17.5rem;
+}  
+.block h2:nth-child(odd){ 
+	margin-left: 12.5rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
+.block img:nth-child(odd){
+	margin-left: 5rem;
+	width: 17.5rem;
+	height: 17.5rem;
+}
+.carousel img{
+	width:17.5rem;
+	height: 17.5rem; 
+}
+.block:nth-child(odd){
+	background-color: #ffffff;
+}
+.block:nth-child(even) {
+  	background-color: #efefef;
+}
+.block img{
+	margin-left: 5rem;
+	width: 17.5rem;
+	height: 17.5rem;
+}
+.prgp{
+	margin-left: 5rem;
+}
+.psr{
+	margin-left: 6rem;
+}
+.p-2{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-left: 5rem;	
+}
+#line{
+	height: 12rem;
+	width: 12rem;
+}
+#first{
+	margin-right: 6rem;
+}
+#second{
+	margin-right: 6rem;	
+}
+.block img{
+    margin-left: 5rem;
+    width: 17.5rem;
+    height: 17.5rem;
+}
+.prgp{
+    margin-left: 5rem;
+}
+.psr{
+    margin-left: 6rem;
+}
+.p-2{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
 </style>
+
 @section('content')
+
 <div class="block">
     <div class="col-md-12">
         <h2>Simplon France</h2>
@@ -35,6 +97,7 @@
         <div class="col-sm-1"></div>
     </div>
 </div>
+
 <section class="carousel sr">
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
@@ -61,6 +124,7 @@
     </a>
     </div>
 </section>
+
 <div class="block">
     <div class="col-md-12">
         <h2>La méthode active</h2>
@@ -78,36 +142,43 @@
     </div>
 </div>
 <div class="block">
-    <div class="col-md-12">
-        <h2>Partenaires Simplon Rodez</h2>
-    </div>
-    <div class="col-md-12 d-flex">          
-        <div class="col-sm-1"></div>
-            <p class="psr">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.   
-            </p>  
-        <div class="col-sm-1"></div>
-    </div>
-    <div class="d-flex flex-row">
-        <div class="p-2">
-            <img src="img/css.png" alt="CCI Aveyron">
-        </div>
-        <div class="p-2">
-            <img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="Fabrique d'initiatives citoyennes">
-        </div>
-        <div class="p-2">
-            <img src="img/css.png" alt="illam Informatique">
-        </div>
-    </div>
-    <div class="d-flex flex-row">
-        <div class="p-2">
-            <img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="CCI Aveyron">
-        </div>
-        <div class="p-2">
-            <img src="img/css.png" alt="Fabrique d'initiatives citoyennes">
-        </div>
-        <div class="p-2">
-            <img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="illam Informatique">
-        </div>
-    </div>
+
+	<div class="col-md-12">
+		<h2>Partenaires Simplon Rodez</h2>
+	</div>
+	<div class="col-md-12 d-flex">			
+		<div class="col-sm-1"></div>
+			<p class="psr">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
+			</p>	
+		<div class="col-sm-1"></div>
+	</div>
+
+
+	<div class="d-flex justify-content-sm-center" id="first">
+		<div class="p-2">
+			<img src="img/css.png" id="line" alt="CCI Aveyron">
+		</div>
+		<div class="p-2">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" id="line" alt="Fabrique d'initiatives citoyennes">
+		</div>
+		<div class="p-2">
+			<img src="img/css.png" id="line" alt="illam Informatique">
+		</div>
+	</div>
+
+
+	<div class="d-flex justify-content-sm-center" id="second">
+		<div class="p-2">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" id="line" alt="CCI Aveyron">
+		</div>
+		<div class="p-2">
+			<img src="img/css.png" id="line" alt="Fabrique d'initiatives citoyennes">
+		</div>
+		<div class="p-2">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" id="line" alt="illam Informatique">
+		</div>
+	</div>
 </div>
 @endsection
+
+
