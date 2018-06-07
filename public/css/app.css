@@ -10423,24 +10423,24 @@ a.text-dark:focus {
   /**************************************/
   /*   Style general of section Block   */
   /**************************************/
-.block {
+.blockD {
   height: 30rem;
   background-color: #efefef;
 }
-.block h2 {
+.blockD h2 {
   padding-bottom: 5%;
 }
-.block h4 {
+.blockD h4 {
   text-align: right;
   padding-bottom: 20%;
   padding-right: 10%;
   color: #000;
 } 
-.block i {
+.blockD i {
   text-align: center;
   color: #ce0033;
 }
-.block p {
+.blockD p {
   text-align: justify;
   padding-top: 1%; 
 }
