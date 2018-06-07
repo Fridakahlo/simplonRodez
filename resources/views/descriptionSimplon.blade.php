@@ -1,5 +1,5 @@
 <!----------------------------------------------->
-<!--   C.S.S Style in file App.css line 10420  -->
+<!--   C.S.S Style in file App.css line 10495  -->
 <!----------------------------------------------->
 @extends('layouts.default') 
 @section('content')
@@ -92,11 +92,10 @@
 							</div>	
 						</div>
 						<div class="description col-md-6">
-							<h2>Qu'apprendre à Simplon Rodez ?</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, veniam voluptatibus doloribus praesentium distinctio harum, ducimus eos esse nam, repudiandae amet explicabo eius unde! Impedit ab nostrum quae recusandae reprehenderit?
-								<br>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore voluptatem et distinctio modi odio quo ducimus impedit aspernatur minus, optio, accusantium ab voluptas quibusdam assumenda possimus qui nemo! Obcaecati, corporis.		
-							</p>
+							
+				                {!! $infos->title !!}
+				                {!! $infos->content !!}
+				        
 						</div>
 					</div>									
 				</div>	
@@ -105,7 +104,6 @@
 	</div>
 </div>			
 		<!-- End Block 1 -->
-
 		<!-- Block 2 -->
 <div class="wrapper">
 	<div class="container-fluid">
@@ -120,11 +118,10 @@
 					</div>	
 					<div class="d-flex">
 						<div class="description col-md-6">
-							<h2>Le diplôme, la durée .</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ea inventore ratione nulla quis provident voluptatem dolorum, laudantium velit, facere a quod nisi blanditiis maiores rem, magnam quos illum optio.
-								<br>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit et sapiente vitae provident labore, minus at saepe recusandae! Quaerat molestias dolorem, perspiciatis repellat adipisci pariatur repellendus, velit at possimus voluptatem?	
-							</p>
+
+		                        {!! $articledown->title !!}
+		                        {!! $articledown->content !!}
+		                        
 						</div>	
 						<div class="col-md-6">
 							<img src="img/diplome.jpg" class="imgDescription" alt="Responsive image">
@@ -136,7 +133,6 @@
 	</div>		
 </div>			
 		<!-- End Block 2 -->
-
 		<!-- Block 3 -->
 <div class="wrapper">
 	<div class="container-fluid">
