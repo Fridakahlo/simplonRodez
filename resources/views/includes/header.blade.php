@@ -8,7 +8,7 @@
 
 <!-- header background is : <img class="headerlogo"  src="../../../storage/app/public/img/header_rodez_panorama_flou.jpg>      -->
 
-<div class="row simplonheader text-center pt-4 ">
+<div class="simplonheader text-center pt-4 ">
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->
 		<img src="img/header_logo_simplon.png" width="50%">
@@ -29,7 +29,7 @@
 <!--   start NAVIGATIONBAR     -->
 <!--***************************-->
 
-<nav class="row">
+<nav>
 	<!-- navigationbar Version navigateur  -->
 
 	
