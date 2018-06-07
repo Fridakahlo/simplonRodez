@@ -1,16 +1,20 @@
 <style type="text/css">
+
     footer {
-        margin-top: 1rem;
+        margin-top: 2rem;
         padding-bottom: 2rem;
         padding-right: 1rem;
         padding-left: 1rem;
     }
+
     footer.img {
         max-width: 100%; 
     }
+
     contact-item {
         color: green;
     }
+
     .d-inline-flex {
         width:100%;
     }  
@@ -18,12 +22,17 @@
     /* ####### Icons ####### */
     /* footer social icons */
 
+    .social-box {
+        padding-top: 1rem;
+    }
+
     ul.social-network {
         list-style: none;
         display: inline;
         margin-left:0 !important;
         padding: 0;
     }
+
     ul.social-network li {
         display: inline;
         margin: 0 5px;
@@ -31,30 +40,45 @@
 
 
     /* footer social icons */
+
+    .social-network a {
+        background-color: #D3D3D3;   
+    }
+    
     .social-network a.icoRss:hover {
         background-color: #F56505;
     }
+
     .social-network a.icoFacebook:hover {
         background-color:#3B5998;
     }
+
     .social-network a.icoTwitter:hover {
         background-color:#33ccff;
     }
+
     .social-network a.icoGoogle:hover {
         background-color:#BD3518;
     }
+
     .social-network a.icoVimeo:hover {
         background-color:#0590B8;
     }
+
     .social-network a.icoLinkedin:hover {
         background-color:#007bb7;
     }
+
     .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
     .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
         color:#fff;
     }
+
     a.socialIcon:hover, .socialHoverClass {
         color:#44BCDD;
+    }
+
+    .social-circle li {
     }
 
     .social-circle li a {
@@ -69,6 +93,7 @@
         height: 50px;
         font-size:20px;
     }
+
     .social-circle li i {
         margin:0;
         line-height:50px;
@@ -86,6 +111,7 @@
         -ms-transition: all 0.2s;
         transition: all 0.2s;
     }
+
     .social-circle i {
         color: #fff;
         -webkit-transition: all 0.8s;
@@ -95,9 +121,6 @@
         transition: all 0.8s;
     }
 
-    .social-network a {
-     background-color: #D3D3D3;   
-    }
 </style>
 
 
@@ -116,7 +139,7 @@
     </div>
     <div class="col-md-2 col-sm-0">&nbsp;</div>
 
-    <div class="col-md-3 col-sm-12 text-center">
+    <div class="col-md-3 col-sm-12 text-center social-box">
         <ul class="social-network social-circle">
             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f fa-2x"></i></a></li>
             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a></li>

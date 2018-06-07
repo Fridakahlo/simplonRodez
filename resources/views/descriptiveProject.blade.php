@@ -3,90 +3,30 @@
 /*=========================================*/-->
 @extends('layouts.default')
 
-
-
-<style>
-/*=====================================*/
-/*  css view descriptiveProject.blade.php */
-/*=====================================*/
-.img-fluid {
-	max-width: 100%;
-	height: auto;
-}
-.name_apprenant {
-	margin-left: 52.5rem; 
-}
-.img-fluid {
-	margin-bottom: 2rem;
-}
-
-/*Start Section Style Description Page: made by David*/
-.block {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.block h3, .block p {
-  padding-top: 1.5rem;
-}
-.block i {
-  margin-top: 4rem;
-  margin-left: 10rem;
-  width: 17.5rem;
-  height: 17.5rem;
-}  
-    /*Style section 1 and 3 of Description page*/
-.block h2:nth-child(odd) { 
-  margin-left: 12.5rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-}
-.block img:nth-child(odd){
-  margin-left: 5rem;
-  width: 17.5rem;
-  height: 17.5rem;
-}
-.block:nth-child(odd) {
-  background-color: #EFEFEF;
-  
-}
-/*.block:nth-child(even) {
-  background-color: #EFEFEF;
-}*/
-.btn {
-	min-width: 10em;
-	margin-top: 3em;
-}
-.btn-secondary {
-	background-color: #EFEFEF;	
-}
-
-</style>
-
-
 @section('content')
-<div class="container block" style="min-height: 450px">
+<div class="container" style="min-height: 450px">
 	<div class="col-md-12">
-		<h2>LE NOM DU PROJET</h2>
+		<h2 class="title_project">LE NOM DU PROJET</h2>
 		<h4 class="name_apprenant">Le nom de l'apprenant</h4>
 	</div>
 	<div class="col-md-12 d-flex ">	
 		<!-- <div class="col-sm-1"></div> -->
 		<div class="col-sm-4">
-			<img class="img-fluid" src="img/code.jpg" alt="Responsive image">
+			<img class="img-project" src="img/code.jpg" alt="Responsive image">
 		</div>
 		<div class="col-sm-4">
-			<img class="img-fluid" src="img/css.png" alt="Responsive image">
+			<img class="img-project" src="img/css.png" alt="Responsive image">
 		</div>	
 		<div class="col-sm-4">
-			<img class="img-fluid" src="img/diplome.jpg" alt="Responsive image">
+			<img class="img-project" src="img/diplome.jpg" alt="Responsive image">
 		</div>	
 	</div>
 </div>
 
-<div class="block container background" style="min-height: 450px">
+<div class="container background" style="min-height: 450px">
 	<div class="col-sm-1"></div>
 	<div class="col-md-12">
-		<h2>DESCRIPTIF DU PROJET</h2>
+		<h2 class="title_project">DESCRIPTIF DU PROJET</h2>
 	</div>
 	<div class="col-sm-1"></div>
 	<div class="col-md-12 d-flex">			
@@ -106,7 +46,7 @@
 			<div class="col-sm-4"></div>	
 	<!-- Large modal -->
 			<div class="col-sm-4 text-center">
-				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target=".bd-example1-modal-lg">PROMO</button>
+				<button type="button" class="btn btn-secondary btn-lg btn-modal" data-toggle="modal" data-target=".bd-example1-modal-lg">PROMO</button>
 				<div class="col-sm-4"></div>
 
 				<div class="modal fade bd-example1-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -134,7 +74,7 @@
 			<div class="col-sm-4"></div>	
 	<!-- Large modal -->
 			<div class="col-sm-4 text-center">
-				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target=".bd-example2-modal-lg">SUJET</button>
+				<button type="button" class="btn btn-secondary btn-lg btn-modal" data-toggle="modal" data-target=".bd-example2-modal-lg">SUJET</button>
 					<div class="col-sm-4"></div>
 
 					<div class="modal fade bd-example2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -164,7 +104,7 @@
 			<div class="col-sm-4"></div>	
 	<!-- Large modal -->
 			<div class="col-sm-4 text-center">
-				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target=".bd-example3-modal-lg">TYPE DE PROJET</button>
+				<button type="button" class="btn btn-secondary btn-lg btn-modal btn-example3" data-toggle="modal" data-target=".bd-example3-modal-lg">TYPE DE PROJET</button>
 					<div class="col-sm-4"></div>
 
 					<div class="modal fade bd-example3-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
