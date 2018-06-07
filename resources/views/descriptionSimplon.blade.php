@@ -2,6 +2,7 @@
 <!--   C.S.S Style in file App.css line 10420  -->
 <!----------------------------------------------->
 
+
 @extends('layouts.default') 
 @section('content')
 <div class="wrapper">
