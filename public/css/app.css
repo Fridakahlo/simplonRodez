@@ -10517,9 +10517,6 @@ a.text-dark:focus {
   height: 17.5rem;
   margin-bottom: 2rem;
 }
-.name_apprenant {
-  margin-left: 45.5rem; 
-}
 .btn-modal {
   min-width: 10em;
   margin-top: 3em;
@@ -10532,12 +10529,12 @@ a.text-dark:focus {
   background-color: #EFEFEF;
   background-size: cover;
 }
-
 .descriptive_project {
   margin-top: 1em;
 }
 .title_project {
   margin: 1em;
+  color: #ce0033;
 }
 /*=========================================*/
 /*     css view list_project.blade.php     */
@@ -10548,7 +10545,11 @@ a.text-dark:focus {
   padding-bottom: 1em;
 }
 .title_projects {
-  margin-bottom: 2em;
+  margin: 1em;
+  color: #ce0033;
+}
+.presentation_projects {
+  margin: 3em;
 }
 .img-list {
   width:60%;
@@ -10557,6 +10558,7 @@ a.text-dark:focus {
   padding-top: 1em;
 }
 .list {
+  margin-top: 2em;
   margin-bottom: 3em;
   font-weight: bold;
 }
