@@ -5,20 +5,9 @@
    @include('includes.head')
 </head>
 <body>
-
-    <header class="container">
-        <div class="row">
-            @include('includes.header')
-        </div>    
-    </header>
-
-
     @section('header')
         @include('includes.header')
     @show
-
-    
-
 
     @include('includes.nav')
 
