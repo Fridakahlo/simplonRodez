@@ -5,6 +5,7 @@
    @include('includes.head')
 </head>
 <body>
+
     @section('header')
         @include('includes.header')
     @show
@@ -14,7 +15,7 @@
     </main>
    
     @include('includes.footer')
-
+    
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
     <!-- Utilitary Bootsrap 4 -->

@@ -122,7 +122,6 @@
     }
 
 </style>
-
 <footer class="wrapper">
     <div class="container">
         <div class="row">
