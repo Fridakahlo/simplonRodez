@@ -5,21 +5,25 @@
     @include('includes.head')
 </head>
 <body>
+    <div class="wrap">
     <header class="container">
-        <div class="row">
+        <div class="">
             @include('includes.header')
         </div>    
     </header>
     <main>
-        <div class="container">
-            @yield('content')
+        <div class="">
+            <div class="">
+                @yield('content')
+            </div>
         </div>
     </main>
-    <footer class="container">
-        <div class="row">
+    <footer class="">
+        <div class="">
             @include('includes.footer')
         </div>
     </footer>
+    </div>
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
     <!-- Utilitary Bootsrap 4 -->

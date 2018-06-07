@@ -91,7 +91,7 @@
 <!--********************-->
 
 <!-- header background is : <img class="headerlogo"  src="../../../storage/app/public/img/header_rodez_panorama_flou.jpg>      -->
-<div class="row simplonheader text-center pt-4 ">
+<div class="simplonheader text-center pt-4 ">
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->
 		<img src="img/header_logo_simplon.png" width="50%">
@@ -125,27 +125,29 @@
 	<button class="navbar-toggler hidden-lg-up btn_menu" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
 		&#9776;
 	</button>
+		<div class="row d-flex">	
 	<div class="collapse navbar-toggleable-sm navbar-collapse justify-content-end " id="mainNavbarCollapse">
-		<ul class="nav navbar-nav pull-lg-right text-white">
-            <li class="nav-item">
-                <a class="nav-link" href="/home_sr">Accueil <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/simplonFrance">Simplon</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Formations</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Apprenants</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/list_project">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
-            </li>
-		</ul>
+			<ul class="nav navbar-nav pull-lg-right text-white">
+	            <li class="nav-item">
+	                <a class="nav-link" href="/home_sr">Accueil <span class="sr-only">(current)</span></a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link" href="/simplonFrance">Simplon</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link disabled" href="#">Formations</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link disabled" href="#">Apprenants</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link" href="/list_project">Projects</a>
+	            </li>
+	            <li class="nav-item">
+	                <a class="nav-link" href="/contact">Contact</a>
+	            </li>
+			</ul>
+		</div>	
 	</div>
 </nav>
 
