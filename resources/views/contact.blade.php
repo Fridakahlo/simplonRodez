@@ -3,6 +3,7 @@
 
 @section('content')
 	<div class="container">
+		
 		<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 			<h2>Get in Touch</h2>
 			 @if ($errors->any())

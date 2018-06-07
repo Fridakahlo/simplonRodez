@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 
+
 @section('content')
 
 <section class="we-sr" style="min-height: 450px">
