@@ -52,17 +52,20 @@ Route::get('/list_project', function () {
 Route::get('/descriptionSimplon', function() {
     return view('descriptionSimplon');
 });
-Route::get('/contact', [
-	'as' => 'contact_path',
-	'uses' => 'ContactsController@create'
-]);
+// Route::get('/contact', [
+// 	'as' => 'contact_path',
+// 	'uses' => 'ContactsController@create'
+// ]);
 
-Route::post('/contact', [
-    'as' => 'contact_path',
-    'uses' => 'ContactsController@store'
-]);
+// Route::post('/contact', [
+//     'as' => 'contact_path',
+//     'uses' => 'ContactsController@store'
+// ]);
 
 Route::get('/simplonFrance', function() {
     return view('simplonFrance');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
