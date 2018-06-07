@@ -68,3 +68,7 @@ Route::get('/home_sr', function(){
 
 Route::get('/home_sr', 'ArticleController@articlesPageOne');
 
+Route::get('/descriptiveProject', function(){
+    return view('descriptiveProject');
+});
+

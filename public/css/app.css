@@ -10374,9 +10374,7 @@ a.text-dark:focus {
     min-width: 992px !important;
   }
 
-  .navbar {
-    display: none;
-  }
+
 
   .badge {
     border: 1px solid #000;
@@ -10418,55 +10416,109 @@ a.text-dark:focus {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
-
-
+/*===================================================*/
 /*Start Section Style Description Page: made by David*/
-
-.block {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.block h3, .block p {
-    padding-top: 1.5rem;
-}
-.block i {
-  margin-top: 4rem;
-  margin-left: 10rem;
+/*===================================================*/
+    /*===============================================*/ 
+    /*   Style section 1 and 3 of Description page   */
+    /*===============================================*/ 
+    /*===================================================*/   
+    /*   End style section 1 and 3 of Description page   */
+    /*===================================================*/  
+/*=========================================*/
+/*   End Section Style Description Page    */
+/*=========================================*/
+/*=========================================*/
+/*   View descriptiveProject.blade.ph      */
+/*=========================================*/
+.img-project {
   width: 17.5rem;
   height: 17.5rem;
-}  
-    /*Style section 1 and 3 of Description page*/
-.block h2:nth-child(odd) { 
-  margin-left: 12.5rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
-.block img:nth-child(odd){
-  margin-left: 5rem;
-  width: 17.5rem;
-  height: 17.5rem;
+.name_apprenant {
+  margin-left: 45.5rem; 
 }
-/*.block:nth-child(odd) {
-  background-color: #ce0033;
-  color: #fff;
-}*/
-    /*End style section 1 and 3 of Description page*/
-/*.block:nth-child(even) {
+.btn-modal {
+  min-width: 10em;
+  margin-top: 3em;
+  background-color: #EFEFEF;  
+}
+.btn-example3 {
+  margin-bottom: 3em;
+}
+.background {
   background-color: #EFEFEF;
-}*/
-.carousel img{
-  width:17.5rem;
-  height: 17.5rem; 
-}
-/*End Section Style Description Page*/
-
-.titleIcon{
-  margin-left: 4rem;
-  text-align: center;
+  background-size: cover;
 }
 
-.card {
+.descriptive_project {
+  margin-top: 1em;
+}
+.title_project {
+  margin: 1em;
+}
+/*=========================================*/
+/*     css view list_project.blade.php     */
+/*=========================================*/
+.titleList {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+}
+.title_projects {
+  margin-bottom: 2em;
+}
+.img-list {
+  width:60%;
+  margin:auto; 
+  margin-top: 1.5em;  
+  padding-top: 1em;
+}
+.list {
+  margin-bottom: 3em;
+  font-weight: bold;
+}
+.text {
+  margin: auto;
+  word-wrap: break-word;   
+}
+.link_project {
+  margin-left: 18em;
+}
+.project1, .project3 {
+  background-color: #EFEFEF;
+}
+/*=========================================*/
+/*     css view home_sr.blade.php     */
+/*=========================================*/
+.container-home_sr {
+  margin: 1em;
+}
+.we-sr {
+  background-color: #EFEFEF;
+  padding-top: 6em;
+}
+.news-sr, .carousel-sr {
+  margin-top: 3em;
+}
+.link-news {
+  margin-top: 3em;
+}
+.presentation_h3 {
+  margin-top: 2em;
+}
+.h1_news {
+  padding-top: 0.5em;
+}
+.h3_news {
+  padding-bottom: 1em;
+}
+.news {
+  padding: 2em;
+  border-radius: 5px;
   background-color: #EFEFEF;
   border-radius: 5px;
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
+  min-height:50px; 
 }

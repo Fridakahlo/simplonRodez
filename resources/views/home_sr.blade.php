@@ -1,46 +1,5 @@
 @extends('layouts.default')
 
-<style>
-/*=========================*/
-/*  view home_sr.blade.php */
-/*=========================*/
-.container-home_sr {
-  margin: 1em;
-}
-.we-sr {
-  background-color: #EFEFEF;
-  padding-top: 6em;
-}
-.news-sr, .carousel {
-  margin-top: 3em;
-}
-.we {
-  margin: 2em;
- 
-}
-.btn-secondary {
-  text-decoration: none;
-}
-.link-news {
-  margin-top: 3em;
-}
-.presentation_h3 {
-  margin-top: 2em;
-}
-.h1_news {
-  padding-top: 0.5em;
-}
-.h3_news {
-  padding-bottom: 1em;
-}
-.news {
-  padding: 2em;
-  border-radius: 5px;
-  background-color: #EFEFEF;
-  border-radius: 5px;
-  box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
-}
-</style>
 
 @section('content')
 
@@ -59,8 +18,10 @@
         </div>
     </div>    
 </section>
+
 <section class="news-sr" >
     <div class="container-home_sr">
+
         <div class="row justify-content-center">
             @foreach($news as $articledown)
                 <div class="col-md-5">
@@ -74,7 +35,7 @@
     </div>
   </div>
 </section>
-<section class="carousel sr">
+<section class="carousel-sr">
   <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
 
