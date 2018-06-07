@@ -10509,6 +10509,9 @@ a.text-dark:focus {
 /*******************************************/ 
 /*   End C.S.S Description Page by David   */
 /*******************************************/ 
+/*=========================================*/
+/*   view descriptiveProject.blade.ph      */
+/*=========================================*/
 .img-project {
   width: 17.5rem;
   height: 17.5rem;
@@ -10600,9 +10603,10 @@ a.text-dark:focus {
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
   min-height:50px; 
 }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
+/*=========================================*/
+/*       view simplonFrance.blade.ph       */
+/*=========================================*/
 .block {
   padding-top: 3rem;
   padding-bottom: 3rem;
