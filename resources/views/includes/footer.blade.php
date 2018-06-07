@@ -137,9 +137,8 @@
         <!-- Image stored in folder /public/img -->
         <img src="img/footer_logo_simplon_rodez_123x100.png" class="img-fluid">
     </div>
-    <div class="col-md-2 col-sm-0">&nbsp;</div>
 
-    <div class="col-md-3 col-sm-12 text-center social-box">
+    <div class="col-md-5 col-sm-12 text-center social-box">
         <ul class="social-network social-circle">
             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f fa-2x"></i></a></li>
             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a></li>
