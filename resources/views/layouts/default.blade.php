@@ -7,7 +7,7 @@
 <body>
     <header class="container">
         <div class="row">
-            @include('includes.header')
+            @include('includes.nav')
         </div>    
     </header>
     <main>
