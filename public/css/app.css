@@ -10417,25 +10417,98 @@ a.text-dark:focus {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
-
-
-
-
-/*===================================================*/
-/*Start Section Style Description Page: made by David*/
-/*===================================================*/
-    /*===============================================*/ 
-    /*   Style section 1 and 3 of Description page   */
-    /*===============================================*/ 
-    /*===================================================*/   
-    /*   End style section 1 and 3 of Description page   */
-    /*===================================================*/  
-/*=========================================*/
-/*   End Section Style Description Page    */
-/*=========================================*/
-/*=========================================*/
-/*   View descriptiveProject.blade.ph      */
-/*=========================================*/
+/***************************************/
+/*   C.S.S Description Page by David   */
+/***************************************/
+  /**************************************/
+  /*   Style general of section Block   */
+  /**************************************/
+.block {
+  height: 30rem;
+  background-color: #efefef;
+}
+.block h2 {
+  padding-bottom: 5%;
+}
+.block h4 {
+  text-align: right;
+  padding-bottom: 20%;
+  padding-right: 10%;
+  color: #000;
+} 
+.block i {
+  text-align: center;
+  color: #ce0033;
+}
+.block p {
+  text-align: justify;
+  padding-top: 1%; 
+}
+  /******************************************/
+  /*   End style general of section Block   */
+  /******************************************/
+  /***************************/
+  /*   Style Block 1 and 3   */
+  /***************************/
+.block1 h1, .block3 h1 {
+  padding-top: 10%;
+  padding-bottom: 3.5%;
+  text-align: center;
+  color: #ce0033;
+}
+.block1 p, .block3 p {
+  padding-right: 10%;
+}
+.block3 img {
+  margin-left: 23.5%;
+  border-radius: 5%;
+  border: solid 3px #000;
+}
+  /*******************************/
+  /*   End style Block 1 and 3   */
+  /*******************************/
+  /*********************/
+  /*   Style Block 2   */
+  /*********************/
+.block2 {
+  background-color: #fff;
+  text-align: right;
+}
+.block2 h1 {
+  padding-top: 10%;
+  padding-bottom: 3.5%;
+  text-align: center;
+  color: #ce0033; 
+}
+.block2 p {
+  margin-left: 10%;
+}
+.block2 img {
+  margin-right: 23.5%;
+  border-radius: 5%;
+  border: solid 3px #ec0033;
+}
+  /*************************/
+  /*   End style Block 2   */
+  /*************************/
+#carouselDescription {
+  color: #000;
+  padding-top: 10%;
+}
+.description {
+  height: 50rem;
+}
+.carouselIcon {
+  font-size: 5rem;
+}
+.imgDescription {
+  width: 20rem;
+  height: 15rem;
+  margin-top: 2%;
+}
+/*******************************************/ 
+/*   End C.S.S Description Page by David   */
+/*******************************************/ 
 .img-project {
   width: 17.5rem;
   height: 17.5rem;
@@ -10527,16 +10600,101 @@ a.text-dark:focus {
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
   min-height:50px; 
 }
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+.block {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.block i {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  width: 17.5rem;
+  height: 17.5rem;
+}  
+.block h2:nth-child(odd){ 
+  margin-left: 12.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.block img:nth-child(odd){
+  margin-left: 5rem;
+  width: 17.5rem;
+  height: 17.5rem;
+}
+.carousel img{
+  width:80rem;
+  height: 30rem; 
+}
+.block:nth-child(odd){
+  background-color: #ffffff;
+}
+.block:nth-child(even) {
+    background-color: #efefef;
+}
+.block img{
+  margin-left: 5rem;
+  width: 30rem;
+  height: 30rem;
+}
+.prgp{
+  margin-left: 5rem;
+}
+.psr{
+  margin-left: 6rem;
+}
+.p-2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;  
+}
+#line{
+  height: 12rem;
+  width: 12rem;
+}
+#first{
+  margin-right: 6rem;
+}
+#second{
+  margin-right: 6rem; 
+}
+.block img{
+    margin-left: 5rem;
+    width: 17.5rem;
+    height: 17.5rem;
+}
+.prgp{
+    margin-left: 5rem;
+}
+.psr{
+    margin-left: 6rem;
+}
+.p-2{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
 /*=========================================*/
 /*            view nav.blade.ph            */
 /*=========================================*/
 .simplonheader {
-    background-image: url(/img/header_rodez_panorama_flou.jpg);
-    background-size: cover;
+  background-image: url(/img/header_rodez_panorama_flou.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.simplonlogo {
+  width: 40vw;
+}
+
+.partnerlogos {
+  width: 25vw;
 }
 .simplonheader img {
     margin-top: 2rem;
-    z-index: 1000;
 }
 .btn_logo {
     background-color: #FFFFFF;
@@ -10551,6 +10709,7 @@ a.text-dark:focus {
     height: 54px;
     width: 54px;
 }
+
 .sticky.is-sticky {
     position: fixed;
     left: 0;
@@ -10577,5 +10736,6 @@ a.text-dark:focus {
 a.menu:hover{
     color: #ffffff!important;
 }
+
 
 
