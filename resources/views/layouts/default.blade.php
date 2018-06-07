@@ -2,28 +2,20 @@
 
 <html lang="{{ app()->getLocale() }}">
 <head>
-    @include('includes.head')
+   @include('includes.head')
 </head>
 <body>
-    <div class="wrap">
-    <header class="container">
-        <div class="">
-            @include('includes.header')
-        </div>    
-    </header>
+
+    @section('header')
+        @include('includes.header')
+    @show
+    
     <main>
-        <div class="">
-            <div class="">
-                @yield('content')
-            </div>
-        </div>
+        @yield('content')
     </main>
-    <footer class="">
-        <div class="">
-            @include('includes.footer')
-        </div>
-    </footer>
-    </div>
+   
+    @include('includes.footer')
+    
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
     <!-- Utilitary Bootsrap 4 -->

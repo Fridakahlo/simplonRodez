@@ -38,6 +38,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
 *,
 *::before,
 *::after {
@@ -10416,7 +10417,6 @@ a.text-dark:focus {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
-
 /*===================================================*/
 /*Start Section Style Description Page: made by David*/
 /*===================================================*/
@@ -10469,10 +10469,6 @@ a.text-dark:focus {
 }
 .title_projects {
   margin-bottom: 2em;
-}
-.list {
-  margin-top: 2em;
-  padding: 0;
 }
 .img-list {
   width:60%;
@@ -10527,3 +10523,27 @@ a.text-dark:focus {
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
   min-height:50px; 
 }
+
+/*=========================================*/
+/*     css view header.blade.php     */
+/*=========================================*/
+.simplonheader {
+  background-image: url(/img/header_rodez_panorama_flou.jpg);
+  background-size: cover;
+}
+
+.simplonheader img {
+  
+}
+
+/*      STICKY HEADER POSITION    */
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
