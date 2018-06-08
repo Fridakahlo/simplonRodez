@@ -11,20 +11,21 @@ class PageThreeController extends Controller
 	Public function articlesPageThree(){
 	    $articles = DB::table('articles')
 	    ->where ('page', 3)
+		->orderBy('position','asc')
 	    ->get();
 
 	    $infos;
-	    $news = [];
+	    $news;
 
 		foreach ($articles as $article) {
 			if ($article->position==1) {
 				$infos = $article;
 			} else {
-				$news[] = $article;
+				$news = $article;
 			}
 		}
 
-	    return view('/home_sr', compact('infos', 'news'));
+	    return view('/descriptionSimplon', compact('infos', 'news'));
 
 	}
 	

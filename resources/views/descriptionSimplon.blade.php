@@ -127,8 +127,8 @@
 					<div class="d-flex">
 						<div class="description col-md-6">
 
-		                        {!! $articledown->title !!}
-		                        {!! $articledown->content !!}
+		                        {!! $news->title !!}
+		                        {!! $news->content !!}
 		                        
 						</div>	
 						<div class="col-md-6">
