@@ -18,6 +18,36 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home_sr', function(){
+    return view('home_sr');
+});
+
+Route::get('/home_sr', 'PageOneController@articlesPageOne');
+
+Route::get('/simplonFrance', function() {
+    return view('simplonFrance');
+});
+
+Route::get('/simplonFrance', 'PageTwoController@articlesPageTwo');
+
+Route::get('/descriptionSimplon', function() {
+    return view('descriptionSimplon');
+});
+
+Route::get('/descriptionSimplon', 'PageThreeController@articlesPageThree');
+
+Route::get('/list_project', function () {
+    return view('list_project');
+});
+
+Route::get('/descriptiveProject', function(){
+    return view('descriptiveProject');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('about', function () {
     return view('about');
 })->middleware('backoffice::class');
@@ -42,28 +72,6 @@ Route::get('/page4_bo', function () {
     return view('page4_bo');
 });
 
-Route::get('/list_project', function () {
-    return view('list_project');
-});
-Route::get('/descriptionSimplon', function() {
-    return view('descriptionSimplon');
-});
 
-Route::get('/contact', function () {
-    return view('contact');
-});
 
-Route::get('/simplonFrance', function() {
-    return view('simplonFrance');
-});
-
-Route::get('/home_sr', function(){
-    return view('home_sr');
-});
-
-Route::get('/home_sr', 'ArticleController@articlesPageOne');
-
-Route::get('/descriptiveProject', function(){
-    return view('descriptiveProject');
-});
 
