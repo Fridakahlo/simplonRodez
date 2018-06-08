@@ -11,6 +11,25 @@
                     <h2>Simplon France</h2>
                     <p>Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.  Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.  Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.  Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.
                     </p>  
+
+    <div class="container"> 
+        <div class="block">
+            <div class="col-md-12"> 
+
+                {!! $infos->title !!}
+
+            </div>
+            <div class="col-md-12 d-flex">          
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <img src="img/logo.png" class="img-thumbnail" alt="Logo Simplon">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+
+                    {!! $infos->content !!}
+
+
                 </div>
             </div>
         </div>
@@ -54,6 +73,7 @@
 </div>
 
 <div class="wrapper">
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 d-flex">
@@ -67,6 +87,23 @@
                     <div class="col-md-3"></div> 
                         <img src="img/logo_simplon.png" class="logoDeux" alt="Pédagogie Active">
                     </div>
+
+    <div class="container"> 
+        <div class="block">
+            <div class="col-md-12">
+
+                     {!! $news->title !!}
+                     
+            </div>
+            <div class="col-md-12 d-flex">          
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+              
+                        {!! $news->content !!} 
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/pedagogie_active_schema.jpg" class="img-thumbnail" alt="méthode active">
+
                 </div>
             </div>
         </div>

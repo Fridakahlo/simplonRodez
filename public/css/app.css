@@ -10509,13 +10509,13 @@ a.text-dark:focus {
 /*******************************************/ 
 /*   End C.S.S Description Page by David   */
 /*******************************************/ 
+/*=========================================*/
+/*   view descriptiveProject.blade.ph      */
+/*=========================================*/
 .img-project {
   width: 17.5rem;
   height: 17.5rem;
   margin-bottom: 2rem;
-}
-.name_apprenant {
-  margin-left: 45.5rem; 
 }
 .btn-modal {
   min-width: 10em;
@@ -10529,12 +10529,12 @@ a.text-dark:focus {
   background-color: #EFEFEF;
   background-size: cover;
 }
-
 .descriptive_project {
   margin-top: 1em;
 }
 .title_project {
   margin: 1em;
+  color: #ce0033;
 }
 /*=========================================*/
 /*     css view list_project.blade.php     */
@@ -10545,7 +10545,11 @@ a.text-dark:focus {
   padding-bottom: 1em;
 }
 .title_projects {
-  margin-bottom: 2em;
+  margin: 1em;
+  color: #ce0033;
+}
+.presentation_projects {
+  margin: 3em;
 }
 .img-list {
   width:60%;
@@ -10554,6 +10558,7 @@ a.text-dark:focus {
   padding-top: 1em;
 }
 .list {
+  margin-top: 2em;
   margin-bottom: 3em;
   font-weight: bold;
 }
@@ -10600,6 +10605,7 @@ a.text-dark:focus {
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
   min-height:50px; 
 }
+
 /*=========================================*/
 /*  view simplonFrance.blade.ph            */
 /*=========================================*/
@@ -10656,12 +10662,12 @@ p{
 }
 
 /*=========================================*/
-/*            view nav.blade.ph            */
+/*            view header.blade.ph            */
 /*=========================================*/
 .simplonheader {
   background-image: url(/img/header_rodez_panorama_flou.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 88vh;
 }
 
 .simplonlogo {
@@ -10674,6 +10680,11 @@ p{
 .simplonheader img {
     margin-top: 2rem;
 }
+
+/*=========================================*/
+/*            view nav.blade.ph            */
+/*=========================================*/
+
 .btn_logo {
     background-color: #FFFFFF;
     padding: 3px;

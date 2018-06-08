@@ -7,9 +7,6 @@
       <div class="col-md-12 col-xs-12">
         <img src="img/header_logo_simplon.png" class="simplonlogo">
       </div>
-      <div class="col-md-12 col-xs-12 pt-4 my-4">
-        <img src="img/header_logo_ern_and_ra.png" class="partnerlogos">
-      </div>  
     </div>  
   </div>
 </header>
@@ -20,10 +17,12 @@
 <section class="we-sr" style="min-height: 450px">
     <div class="container-home_sr we">
         <div class="row justify-content-center">
-            <div class="col-md-5 text-center">
-
+           <div class="col-md-5 text-center">
+            
+            @isset($infos)
                 {!! $infos->title !!}
                 {!! $infos->content !!}
+            @endisset
         
             </div> 
             <div class="col-md-5 text-center">
@@ -32,19 +31,24 @@
         </div>
     </div>    
 </section>
-
+ 
 <section class="news-sr" >
     <div class="container-home_sr">
 
         <div class="row justify-content-center">
-            @foreach($news as $articledown)
-                <div class="col-md-5">
-                    <div class="cardach($articleOne as $articledown) text-center news" style="min-height: 350px">
-                        {!! $articledown->title !!}
-                        {!! $articledown->content !!}
-                    </div>  
-                </div>
-            @endforeach
+
+            @isset($news)
+
+                @foreach($news as $articledown)
+                    <div class="col-md-5">
+                        <div class="cardach($articleOne as $articledown) text-center news" style="min-height: 350px">
+                            {!! $articledown->title !!}
+                            {!! $articledown->content !!}
+                        </div>  
+                    </div>
+                @endforeach
+                
+            @endisset
        </div>
     </div>
   </div>
