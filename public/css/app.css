@@ -10704,7 +10704,7 @@ a.text-dark:focus {
 }
 .btn_logo {
     background-color: #FFFFFF;
-    padding: 3px;
+    padding: 0.5rem;
     border-radius: 5px;
     height: 60px;
     width: 60px;

@@ -15,9 +15,6 @@
                 <a class="nav-link menu" href="#">Formations</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link menu" href="#">Apprenants</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link menu" href="/list_project">Projets</a>
             </li>
             <li class="nav-item">
