@@ -6,13 +6,13 @@
     <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ">
             <li class="nav-item">
-                <a class="nav-link menu" href="/home_sr">Accueil <span class="sr-only">(current)</span></a>
+                <a class="nav-link menu" href="/home_sr">Accueil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link menu" href="/simplonFrance">Simplon</a>
+                <a class="nav-link menu" href="./simplonFrance">Simplon</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link menu" href="#">Formations</a>
+                <a class="nav-link menu" href="./descriptionSimplon">Formations</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link menu" href="/list_project">Projets</a>
@@ -24,6 +24,5 @@
     </div> 
 </nav>
    
-
 
 
