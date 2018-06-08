@@ -21,7 +21,7 @@
                     <li>Promo: </li><p class="text">2020-2021</a>
                     <li>Catégorie: </li><p class="text">Sed elementum laoreet fringilla. Fusce mollis lectus et ex auctor, vel luctus ipsum pretium.</p>
                   </ul> 
-                  <a href="#" class="link_project">Voir le projet</a>  
+                  <a href="./descriptiveProject" class="link_project">Voir le projet</a>  
               </div>
         </div>
     </div>    
@@ -39,7 +39,7 @@
               <li>Promo: </li><p class="text">2020-2021</a>
               <li>Catégorie: </li><p class="text">Sed elementum laoreet fringilla. Fusce mollis lectus et ex auctor, vel luctus ipsum pretium.</p>
             </ul> 
-            <a href="#" class="link_project">Voir le projet</a>  
+            <a href="./descriptiveProject" class="link_project">Voir le projet</a>  
           </div>
       </div>
     </div>    
@@ -57,7 +57,7 @@
           <li>Promo: </li><p class="text">2020-2021</a>
           <li>Catégorie: </li><p class="text">Sed elementum laoreet fringilla. Fusce mollis lectus et ex auctor, vel luctus ipsum pretium.</p>
         </ul> 
-        <a href="#" class="link_project">Voir le projet</a>  
+        <a href="./descriptiveProject" class="link_project">Voir le projet</a>  
       </div>
     </div>
   </div>    
