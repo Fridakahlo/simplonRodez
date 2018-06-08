@@ -26,7 +26,7 @@
         
             </div> 
             <div class="col-md-5 text-center">
-                <img class="img-thumbnail" src="img/footer_logo_ecole_regionale_numerique.jpg"  alt="responsive image">
+                <img class="img-thumbnail" src="img/thomas.jpg"  alt="responsive image">
             </div>
         </div>
     </div>    
