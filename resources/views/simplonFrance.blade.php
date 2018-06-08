@@ -5,8 +5,10 @@
 <div class="wrapper">
     <div class="container"> 
         <div class="block">
-            <div class="col-md-12">
-                <h2>Simplon France</h2>
+            <div class="col-md-12"> 
+
+                {!! $infos->title !!}
+
             </div>
             <div class="col-md-12 d-flex">          
                 <div class="col-sm-1"></div>
@@ -15,8 +17,9 @@
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-6">
-                    <p>Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. 
-                    </p>  
+
+                    {!! $infos->content !!}
+
                 </div>
                 <div class="col-sm-1"></div>
             </div>
@@ -58,16 +61,18 @@
     <div class="container"> 
         <div class="block">
             <div class="col-md-12">
-                <h2>La méthode active</h2>
+
+                     {!! $articledown->title !!}
+                     
             </div>
             <div class="col-md-12 d-flex">          
                 <div class="col-sm-1"></div>
                 <div class="col-sm-6">
-                    <p class="prgp">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.  
-                    </p>  
+              
+                        {!! $articledown->content !!} 
                 </div>
                 <div class="col-sm-3">
-                    <img src="img/Pédagogie_active_schéma.jpg" class="img-thumbnail" alt="méthode active">
+                    <img src="img/pedagogie_active_schema.jpg" class="img-thumbnail" alt="méthode active">
                 </div>
                 <div class="col-sm-1"></div>
             </div>
