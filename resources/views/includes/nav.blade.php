@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbarPrincipal navbar-expand-lg" data-toggle="sticky-onscroll">
+<nav class="navbar sticky-top navbarPrincipal navbar-expand-lg">
     <a class="navbar-brand btn_logo" href="/home_sr">
         <img class="img_logo" src="/img/logo.png" />
     </a>
