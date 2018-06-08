@@ -10606,9 +10606,11 @@ a.text-dark:focus {
   min-height:50px; 
 }
 
+
 /*=========================================*/
 /*       view simplonFrance.blade.ph       */
 /*=========================================*/
+
 .block {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -10684,12 +10686,12 @@ a.text-dark:focus {
 
 
 /*=========================================*/
-/*            view nav.blade.ph            */
+/*            view header.blade.ph            */
 /*=========================================*/
 .simplonheader {
   background-image: url(/img/header_rodez_panorama_flou.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 88vh;
 }
 
 .simplonlogo {
@@ -10702,6 +10704,11 @@ a.text-dark:focus {
 .simplonheader img {
     margin-top: 2rem;
 }
+
+/*=========================================*/
+/*            view nav.blade.ph            */
+/*=========================================*/
+
 .btn_logo {
     background-color: #FFFFFF;
     padding: 3px;
