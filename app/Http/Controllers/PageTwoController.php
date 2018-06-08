@@ -11,21 +11,22 @@ class PageTwoController extends Controller
 	Public function articlesPageTwo(){
 	    $articles = DB::table('articles')
 	    ->where ('page', 2)
+		->orderBy('position','asc')
 	    ->get();
 
 	    $infos;
-	    $news = [];
+	    $news;
 
 		foreach ($articles as $article) {
 			if ($article->position==1) {
 				$infos = $article;
 			} else {
-				$news[] = $article;
+				$news = $article;
 			}
 		}
 
-	    return view('/home_sr', compact('infos', 'news'));
-
+	    return view('/simplonFrance', compact('infos', 'news'));
+ 
 	}
 	
 }

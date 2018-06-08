@@ -1,4 +1,6 @@
-@extends('layouts.default')
+<!--=======================================*/
+/*       view list_project.blade.php       */
+/*=========================================*/-->@extends('layouts.default')
 
 @section('content')
 
@@ -62,14 +64,14 @@
         <div class="block">
             <div class="col-md-12">
 
-                     {!! $articledown->title !!}
+                     {!! $news->title !!}
                      
             </div>
             <div class="col-md-12 d-flex">          
                 <div class="col-sm-1"></div>
                 <div class="col-sm-6">
               
-                        {!! $articledown->content !!} 
+                        {!! $news->content !!} 
                 </div>
                 <div class="col-sm-3">
                     <img src="img/pedagogie_active_schema.jpg" class="img-thumbnail" alt="méthode active">

@@ -11,6 +11,7 @@ class PageOneController extends Controller
 	Public function articlesPageOne(){
 	    $articles = DB::table('articles')
 	    ->where ('page', 1)
+		->orderBy('position','asc')
 	    ->get();
 
 	    $infos;
