@@ -10607,51 +10607,39 @@ a.text-dark:focus {
   min-height:50px; 
 }
 
-
 /*=========================================*/
-/*       view simplonFrance.blade.ph       */
+/*  view simplonFrance.blade.ph            */
 /*=========================================*/
 
-.block {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.block i {
-  margin-top: 4rem;
+.logoFrance{
+  padding-top: 6.5em;
+  padding-bottom: 6.5em;
   margin-left: 10rem;
-  width: 17.5rem;
-  height: 17.5rem;
-}  
-.block h2:nth-child(odd){ 
-  margin-left: 12.5rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
 }
-.block img:nth-child(odd){
-  margin-left: 5rem;
-  width: 17.5rem;
-  height: 17.5rem;
+#title{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
+#titleFrance{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 10rem;
+}
+
 .carousel img{
   width:80rem;
   height: 30rem; 
 }
-.block:nth-child(odd){
-  background-color: #ffffff;
+h2{
+  margin-left: 4rem;
+  margin-bottom: 4rem;
 }
-.block:nth-child(even) {
-    background-color: #efefef;
+p{
+  text-align: justify;
 }
-.block img{
-  margin-left: 5rem;
-  width: 30rem;
-  height: 30rem;
-}
-.prgp{
-  margin-left: 5rem;
-}
-.psr{
-  margin-left: 6rem;
+.logoDeux{
+  padding-top: 6.5em;
+  margin-left: 10rem;
 }
 .p-2{
   margin-top: 2rem;
@@ -10673,18 +10661,6 @@ a.text-dark:focus {
     width: 17.5rem;
     height: 17.5rem;
 }
-.prgp{
-    margin-left: 5rem;
-}
-.psr{
-    margin-left: 6rem;
-}
-.p-2{
-    margin-top: 2rem;
-    margin-left: 1.5rem;
-    margin-bottom: 2rem;
-}
-
 
 /*=========================================*/
 /*            view header.blade.ph            */
