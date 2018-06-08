@@ -9,10 +9,10 @@
                 <a class="nav-link menu" href="/home_sr">Accueil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link menu" href="./simplonFrance">Simplon</a>
+                <a class="nav-link menu" href="/simplonFrance">Simplon</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link menu" href="./descriptionSimplon">Formations</a>
+                <a class="nav-link menu" href="/descriptionSimplon">Formations</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link menu" href="/list_project">Projets</a>
